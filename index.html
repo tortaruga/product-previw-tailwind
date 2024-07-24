@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Product preview card component</title>
+ 
+</head>  
+<body class="text-sm font-medium font-montserrat bg-cream min-h-screen flex flex-col items-center justify-center p-5">  
+                                               
+  <main class="shadow-sm max-w-md md:max-w-2xl flex flex-col rounded-md bg-white mx-3 md:flex-row">
+   <div class="rounded-t-md md:flex-grow bg-mobile-image md:bg-desktop-image w-full aspect-4/3 md:aspect-3/4 bg-cover bg-center bg-no-repeat md:h-full md:rounded-tl-md md:rounded-tr-none md:rounded-bl-md md:rounded-br-none md:items-stretch"></div>
+      
+   <div class="p-7 md:flex-grow flex flex-col justify-between w-full">
+    <p class="text-sm uppercase text-grayish-blue tracking-super-wide text-xsm">Perfume</p>
+    <h1 class="font-fraunces my-5 text-dark-blue font-bold text-4xl">Gabrielle Essence Eau De Parfum</h1>
+    <p class="text-grayish-blue">A floral, solar and voluptuous interpretation composed by Olivier Polge,  
+      Perfumer-Creator for the House of CHANEL.</p>
+  
+    <p class="my-3 flex items-center gap-4 font-bold text-cyan text-3xl font-fraunces">$149.99<span class="text-xs font-normal text-gray-500 line-through font-montserrat">$169.99</span></p>
+    <button class="hover:bg-dark-blue  transition-all font-bold text-sm bg-cyan w-full rounded-md flex items-center justify-center gap-3 p-4 text-white">
+      <img src="./images/icon-cart.svg" alt="shopping cart icon">
+      Add to Cart  
+    </button> 
+   </div>
+  </main>
+
+  <footer class="text-dark-blue my-5  justify-self-end text-center p-3 text-xs">
+    <div class="attribution">
+      Challenge by <a class="text-cyan hover:text-grayish-blue" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="text-cyan hover:text-grayish-blue" href="https://www.frontendmentor.io/profile/tortaruga">tortaruga</a>.
+    </div>
+  </footer> 
+  
+</body>
+</html>
