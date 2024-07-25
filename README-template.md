@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/product-card-with-tailwind-HJ9mkHkQpa](https://www.frontendmentor.io/solutions/product-card-with-tailwind-HJ9mkHkQpa)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-card-with-tailwind-HJ9mkHkQpa ](https://www.frontendmentor.io/solutions/product-card-with-tailwind-HJ9mkHkQpa)
 - Live Site URL: [https://tortaruga.github.io/product-previw-tailwind/](https://tortaruga.github.io/product-previw-tailwind/)
 
 
